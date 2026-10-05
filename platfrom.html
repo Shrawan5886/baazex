@@ -1,0 +1,851 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MVDRFQSG');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="google-site-verification" content="GxCX45xj_B0QgrguH-nAGRKd9ocuX3h_taIXU-hqQUE" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S3QTP6F0Z3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S3QTP6F0Z3');
+</script>
+
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <!-- <meta name="description" content="Angelsky - Platform "> -->
+    <meta name="keywords" content="blockit, uikit3, indonez, handlebars, scss, javascript">
+    <meta name="author" content="BAZ Capital Markets Ltd">
+    <meta name="theme-color" content="#00A8A8">
+    <title>MetaTrader 5 Online Trading Platform | AngelSky</title>
+    <meta name="description" content="MetaTrader 5 online trading platform for flexible trading across forex, stocks, indices, commodities and crypto with advanced tools and fast execution.">
+<!-- Webpage Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.angelsky.com/platfrom.html#webpage",
+  "url": "https://www.angelsky.com/platfrom.html",
+  "name": "MetaTrader 5 Trading Platform | AngelSky",
+  "description": "Trade Forex, commodities, indices, metals, stocks and cryptocurrencies with AngelSky MetaTrader 5 on desktop, mobile and tablet devices.",
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "MetaTrader 5",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "Windows, iOS, Android"
+  },
+  "inLanguage": "en"
+}
+</script>
+<!-- Software Application Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "@id": "https://angelsky.com/platforms#mt5",
+  "name": "MetaTrader 5",
+  "alternateName": "MT5",
+  "applicationCategory": "FinanceApplication",
+  "applicationSubCategory": "Trading Platform",
+  "operatingSystem": "Windows, macOS, iOS, Android, Web",
+  "description": "MetaTrader 5 is a multi-asset trading platform offered through AngelSky, providing access to Forex, stocks, indices, commodities, crypto CFDs, and other financial markets.",
+  "featureList": [
+    "Multi-asset trading",
+    "21 timeframes",
+    "80+ technical indicators",
+    "Advanced order types",
+    "Algorithmic trading",
+    "Expert Advisors",
+    "MQL5 support",
+    "Depth of Market",
+    "Real-time price quotes",
+    "Cross-platform access"
+  ],
+  "provider": {
+    "@id": "https://angelsky.com/#organization"
+  },
+  "url": "https://angelsky.com/platforms"
+}
+</script>
+<link rel="canonical" href="https://www.angelsky.com/platfrom.html">
+    <!-- critical preload -->
+    <link rel="preload" href="../../js/vendors/bootstrap.bundle.min.js" as="script">
+    <link rel="preload" href="../../css/style.css" as="style">
+    <!-- icon preload -->
+    <link rel="preload" href="../../fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- font preload -->
+    <link rel="preload" href="../../fonts/dm-sans-v11-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../fonts/dm-sans-v11-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="../../css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/home/angelsky-icon.png" type="image/x-icon">
+    <!-- Touch icon -->
+     <link rel="apple-touch-icon-precomposed" href="img/home/angelsky-icon.png">
+    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+    <title>Angelsky - Platform </title>
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVDRFQSG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <!-- page loader begin -->
+    <div class="page-loader w-100 h-100 bg-white d-flex justify-content-center align-items-center position-fixed overflow-hidden">
+        <div class="spinner-grow spinner-grow-sm text-primary"></div>
+        <div class="spinner-grow spinner-grow-sm text-primary"></div>
+        <div class="spinner-grow spinner-grow-sm text-primary"></div>
+    </div>
+    <!-- page loader end -->
+    <!-- ticker content begin -->
+    <section class="bg-primary">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="d-none">Stock price ticker</h1>
+                    <ul class="price-ticker list-inline overflow-hidden mb-0">
+                        <li class="list-inline-item">TSLA<span class="badge bg-up ms-1">160.27  (+10.97%)<i class="fas fa-circle"></i></span></li>
+                        <li class="list-inline-item">NVDA<span class="badge bg-down ms-1">198.02  (-0.48%)<i class="fas fa-circle"></i></span></li>
+                        <li class="list-inline-item">AMZN<span class="badge bg-down ms-1">99.22  (-0.61%)<i class="fas fa-circle"></i></span></li>
+                        <li class="list-inline-item">MSFT<span class="badge bg-up ms-1">248.00  (+3.07%)<i class="fas fa-circle"></i></span></li>
+                        <li class="list-inline-item">AAPL<span class="badge bg-up ms-1">143.96  (+1.48%)<i class="fas fa-circle"></i></span></li>
+                        <li class="list-inline-item">MCD<span class="badge bg-up ms-1">274.72  (+0.64%)<i class="fas fa-circle"></i></span></li>
+                        <li class="list-inline-item">INTC<span class="badge bg-down ms-1">30.09  (-0.31%)<i class="fas fa-circle"></i></span></li>
+                        <li class="list-inline-item">XOM<span class="badge bg-up ms-1">117.76  (+4.02%)<i class="fas fa-circle"></i></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ticker content end -->
+    <!-- header begin -->
+    <header class="navbar navbar-expand-xl navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="../../index.html">
+               <img src="img/home/angelsky-logo.png" alt="angelsky" width="180" class="d-inline-block">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav">
+              
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownCompany" aria-expanded="false">Account types</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="../../standardAccount.html">Standard</a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="../../ecnaccount.html">ECN</a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="../../vipaccount.html">VIP</a>
+                            </li>
+                      
+                          
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownCompany2" aria-expanded="false">Markets</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="../../forex.html">Forex</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="../../stocks.html">Shares</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="../../commodities.html">Commodities</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="../../indicies.html">Indices</a>
+                            </li>
+                             <li>
+                                <a class="dropdown-item" href="../../crypto.html">Cryptocurrencies</a>
+                            </li>
+                          
+                        </ul>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="../../platfrom.html"  aria-expanded="false">Platform</a>
+                      
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../promotions.html">Promotions</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownResources" aria-expanded="false">Partners</a>
+                        <ul class="dropdown-menu">
+                          
+                            <li>
+                                <a class="dropdown-item" href="../../ib.html">Intrdoucing Brokers</a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="../../liquidtprovider.html">Liquidity Solutions</a>
+                            </li>
+                          
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownAngelsky" aria-expanded="false">Angelsky</a>
+                        <ul class="dropdown-menu">
+                          
+                            <li>
+                                <a class="dropdown-item" href="../../aboutus.html">About Angelsky</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="../../regulations.html">Why Angelsky?</a>
+                            </li>
+                         
+                          
+                        </ul>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="optional-link d-flex align-items-center ms-xl-4 mobbuttons">
+                    <a href="https://secure.angelsky.com/login" class="btn btn-link link-secondary text-decoration-none ">Sign in</a>
+                    <a href="https://secure.angelsky.com/register" class="btn btn-outline-primary rounded-pill">Get started<i class="fas fa-arrow-right fa-sm ms-1"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <main>
+    <!-- slideshow content begin -->
+    
+    <section>    
+     
+      
+        
+        <br><br><br><br>
+            <div class="container">
+                <div class="row g-0 align-items-md-center">
+                    <div class="col-md-6 col-lg-6 order-first">
+                        <br class="mob">
+                        <h1 class="fw-bold display-4">
+                            <img src="../../img/Platform/platfrom-big-image.png" class="image-slide mob" alt="image-slide" width="100%">
+                             Buy, Trade and Invest on <span style="color: #00A8A8 !important;">MT5</span>  Mobile, Tablet or Desktop
+                            
+                            </h1>
+                        <p class="lead "> MetaTrader 5 is your one-stop shop for trading Forex, Shares, and Indices among 150+ products online. Use MT5 on ANY device. Start trading with just $100, or learn on a risk-free Demo Account first.</p>
+                        <BR>
+                        <div>
+                            <a href="https://download.terminal.free/cdn/web/angelsky.global.limited/mt5/angelskyglobal5setup.exe" class="btn btn-outline-secondary mb-2 mb-md-0">
+                                <div class="d-flex align-items-center text-start">
+                                   <img src="img/Platform/windows.png" alt="icon" width="29" >
+                                   &nbsp; &nbsp;
+                                    <div>
+                                        <span class="h6">Download for</span><br>Desktop
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://download.terminal.free/cdn/mobile/mt5/ios?server=AngelskyGlobal-Server" class="btn btn-outline-secondary">
+                                <div class="d-flex align-items-center text-start">
+                                   <img src="img/Platform/apple.png" alt="icon" width="29" >
+                                   &nbsp; &nbsp;
+                                    <div>
+                                        <span class="h6">Download for</span><br>  iOS
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="mob">
+                                <a href="https://download.terminal.free/cdn/mobile/mt5/android?server=AngelskyGlobal-Server" class="btn btn-outline-secondary ">
+                                    <div class="d-flex align-items-center text-start">
+                                        <img src="../../img/Platform/playstore.png" alt="icon" width="29" >
+                                        &nbsp; &nbsp;
+                                         <div>
+                                             <span class="h6">Download for</span><br>  Android
+                                         </div>
+                                    </div>
+                                </a>
+                            </div>
+                           
+                           
+                            <div class="pc" >
+                                <br>
+                                <a href="https://download.terminal.free/cdn/mobile/mt5/android?server=AngelskyGlobal-Server" class="btn btn-outline-secondary ">
+                                    <div class="d-flex align-items-center text-start">
+                                       <img src="../../img/Platform/playstore.png" alt="icon" width="29" >
+                                       &nbsp; &nbsp;
+                                        <div>
+                                            <span class="h6">Download for</span><br>  Android
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 order-last position-relative">
+                        <br class="mob">
+                        <img src="../../img/Platform/platfrom-big-image.png" class="image-slide pc" alt="image-slide" width="100%">
+
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+  
+
+    </section>
+
+
+    <br><br><br><br>
+    
+    <section class="py-5 in-avo-11">
+        <div class="container">
+            <div class="row gy-5 gy-lg-0">
+                <div class="col-lg-6">
+                  
+                    <h1 class="fw-bold ">Key Features</h1>
+                    <p class="lead  mb-md-3">
+                        <b>We offer you fully featured, comprehensive, user-friendly trading platforms to allow you to facilitate your trading style</b><br><br>
+                        MetaTrader 5 is a user-friendly trading platform that offers advanced features and capabilities not found in other platforms. With MetaTrader, traders can easily monitor price fluctuations, implement complex strategies and studies, and make informed trading decisions. The platform supports various chart types, including Candlestick, Line, Heikin Ashi, and Renko charts.<br><br>
+
+                        Setting up MetaTrader 5 is a breeze, allowing traders to easily set up stop-loss and take-profit orders that can trigger automatically. The platform also allows for easy setup of trailing stop losses and pending orders.<br><br>
+                        
+                        For even more convenience, MetaTrader 5 offers expert advisors (EA's) that can automate your trading by executing pre-programmed scripts. This feature allows traders to save time and take advantage of trading opportunities without having to be glued to their screens. <br><br>Try out MetaTrader 5 today and experience its unparalleled trading capabilities!
+
+                    </p>
+                  
+                </div>
+                <div class="col-lg-6">
+                    <div class="card-badge">
+                        <div class="card card-body ms-lg-5 position-relative">
+                            <span class="badge rounded-pill bg-primary">Angelsky MT5</span>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price-display">
+                                    <h3 class="mb-0 text-primary">Experience More <br>Than Trading</h3>
+                                    <h1 class="fw-bold mb-0">
+                                        
+                                    </h1>
+                                    <!-- <p class="text-muted mt-0">Other fee may apply</p> -->
+                                </div>
+                                <div>
+                                    <img src="../../img/Platform/trading-icon.webp" width="100">
+                                </div>
+                            </div>
+                            <hr class="my-2" >
+                            <ul class="fa-ul lh-lg mt-2 mb-4">
+                                <li><span class="fa-li"><i class="fas fa-check text-primary"></i></span>6 Asset Classes | 1500+ Instruments</li>
+                                <li><span class="fa-li"><i class="fas fa-check text-primary"></i></span>User Friendly UI | MT5</li>
+                                <li><span class="fa-li"><i class="fas fa-check text-primary"></i></span>Powerful Technical Tools</li>
+                                <li><span class="fa-li"><i class="fas fa-check text-primary"></i></span> Customizable User Panel</li>
+                                <li><span class="fa-li"><i class="fas fa-check text-primary"></i></span>Trade Forex | Commodities | Indices | Metals | Stocks | Crypto</li>
+
+                             
+                            </ul>
+
+                            <a href="https://secure.angelsky.com/register" class="btn btn-outline-primary rounded-pill">Open Account<i class="fas fa-arrow-right fa-sm ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card border-0" style="background-image: url(img/blockit/in-card-background-1.jpeg); background-repeat: no-repeat;">
+                        <div class="card-body p-4">
+                            <h2 class="text-white mb-1">Free Demo Account</h2>
+                            <p class="lead text-white text-opacity-50 my-1">Practice trading in a risk-free environment.</p>
+                            <a class="btn btn-light rounded-pill mt-1" href="https://secure.angelsky.com/register">Open an Account<i class="fas fa-arrow-right fa-sm ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- slideshow content end -->
+    <!-- section content begin -->
+
+    <!-- section content end -->
+    <!-- section content begin -->
+
+
+
+    <br>
+
+
+    <br> <br>
+
+    <section class="py-5 in-avo-6" >
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h1 > Why Investors Choose Angel<span style="color: #00A8A8 !important;">sky</span> MetaTrader 5?</h1>
+                    <img src="../../img/Platform/Why-Investors-Choose-Angelsky-MetaTrader-5-.png" width="100%">
+                    <p><b>Discover the leading trading platform with 31 language support. Enjoy a flexible trading system, advanced analysis, MQL5 development, multi-currency testing, and alerts with just one click.</b></p>
+                   
+                   
+                </div>
+            </div>
+          
+            <br>
+                <div class="container">
+                    <br>
+                    <div class="row row-cols-1 row-cols-md-2 gy-2">
+                        <div class="col d-flex align-items-start">
+                            <div class="icon-wrap icon-wrap-large   flex-shrink-0 me-2">
+                                <img src="img/Platform/Ultra-fast-execution-icon.png" alt="icon" width="85" >
+                            </div>
+                            <div>
+                                <h3> Ultra-fast execution</h3>
+                                <p class="mb-0">Angelsky offers ultra-fast execution, so you can get your orders filled quickly and efficiently.</p>
+                             
+                            </div>
+                        </div>
+                        
+                        <div class="col d-flex align-items-start">
+                            <div class="icon-wrap icon-wrap-large   flex-shrink-0 me-2">
+                                <img src="img/Platform/notrading.png" alt="icon" width="85" >
+                            </div>
+                            <div>
+                                <h3>No trading restrictions </h3>
+                                <p class="mb-0">
+                                    There are no trading restrictions on the Angelsky MetaTrader 5 platform. This means orders including stop loss orders.
+                                    </p>
+                               
+                            </div>
+                        </div>
+                        <div class="col d-flex align-items-start">
+                            <div class="icon-wrap icon-wrap-large   flex-shrink-0 me-2">
+                                <img src="img/Platform/Market-Depth-icon.png" alt="icon" width="85" >
+                            </div>
+                            <div>
+                                <h3>Market Depth</h3>
+                                <p class="mb-0">
+                                    The MetaTrader 5 Depth of Market displays the full range of available prices directly from our prices providers.
+                                </p>
+                              
+                            </div>
+                        </div>
+                        <div class="col d-flex align-items-start">
+                            <div class="icon-wrap icon-wrap-large   flex-shrink-0 me-2">
+                                <img src="img/Platform/Tight-spreads-icon.png" alt="icon" width="85" >
+                            </div>
+                            <div>
+                                <h3>Tight spreads</h3>
+                                <p class="mb-0">Angelsky offers tight spreads starting from 0.1 pips, so you can get the most out of your trading opportunities.</p>
+                               
+                            </div>
+                        </div>
+
+                        <div class="col d-flex align-items-start">
+                            <div class="icon-wrap icon-wrap-large   flex-shrink-0 me-2">
+                                <img src="img/Platform/Flexible-Deposit-&-Withdrawal-icon.png" alt="icon" width="85" >
+                            </div>
+                            <div>
+                                <h3>Flexible Deposit & Withdrawal</h3>
+                                <p class="mb-0">
+                                    Deposit and withdrawal made easy including: credit/debit card, Skrill, wire transfer, Neteller, and USDT.  </p>
+                              
+                            </div>
+                        </div>
+                        <div class="col d-flex align-items-start">
+                            <div class="icon-wrap icon-wrap-large   flex-shrink-0 me-2">
+                                <img src="img/Platform/Flexible-Lot-Sizing-icon.png" alt="icon" width="85" >
+                            </div>
+                            <div>
+                                <h3>Flexible Lot Sizing
+                                </h3>
+                                <p class="mb-0"> Angelsky don’t place any restrictions on trade sizes and even allow trades as small as one micro lot (0.01) to be traded.</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+          
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <a href="../../#" class="btn btn-primary rounded-pill mt-2 mb-4">Download Now<i class="fas fa-arrow-right ms-1"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card border-0" style="background-image: url(img/aboutus/banner.PNG); background-repeat: no-repeat;">
+                        <div class="card-body p-4">
+                            <h2 class="text-white mb-1">Angelsky Global Markets</h2>
+                            <p class="lead text-white text-opacity-50 my-1">Angelsky provides access to the global markets for everyone, regardless <br> of account size. Trade on tight spreads from 0.1 pips*</p>
+                            <a href="../../#" class="btn btn-primary rounded-pill mt-2 mb-4">Explore Angelsky Accounts<i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- section content end -->
+    <!-- section content begin -->
+    <!-- <section class="pt-2 pb-5 in-avo-8" style="background: url(img/in-avo-8-background.webp) no-repeat center bottom">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-10">
+                    <h1 class="mb-1 text-center"><span class="text-highlight">Learn</span> to trade at Avo.</h1>
+                    <p class="lead text-center text-muted">Learn how the markets work with our free education tools.</p>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 mt-2 mt-lg-5 gy-3 gy-lg-0">
+                        <div class="col">
+                            <a class="card card-body text-center">
+                                <i class="fas fa-clipboard-list fa-3x text-primary"></i>
+                                <h6 class="mt-n4 mb-1">Trader's glossary</h6>
+                                <p class="small mb-0 text-secondary">A-Z trading terms</p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="card card-body text-center">
+                                <i class="fas fa-video fa-3x text-primary"></i>
+                                <h6 class="mt-n4 mb-1">Tutorial videos</h6>
+                                <p class="small mb-0 text-secondary">Free learning courses</p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="card card-body text-center">
+                                <i class="fas fa-file-pdf fa-3x text-primary"></i>
+                                <h6 class="mt-n4 mb-1">E-Book products</h6>
+                                <p class="small mb-0 text-secondary">Build your own strategies</p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="card card-body text-center">
+                                <i class="fas fa-microphone-alt fa-3x text-primary"></i>
+                                <h6 class="mt-n4 mb-1">Live commentary</h6>
+                                <p class="small mb-0 text-secondary">Trade on the news</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="video-training bigger-picture position-relative">
+                        <img class="w-100" src="../../img/in-avo-8-video.jpg" alt="sample-images" width="626" height="368">
+                        <div class="position-absolute top-50 start-50 translate-middle">
+                            <a href="https://www.youtube.com/watch?v=F3QpgXBtDeo" data-width="900" data-height="506" data-iframe="https://www.youtube.com/embed/F3QpgXBtDeo?autoplay=1&amp;playsinline=1">
+                                <div class="play-video-button"></div>
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- section content end -->
+    <!-- section content begin -->
+
+    <section class="py-5 mt-1 in-avo-16" style="background: url(img/in-avo-16-background.png) no-repeat bottom">
+        <div class="container">
+
+          
+            <br><br>
+            <div class="row justify-content-center gy-2">
+                <div class="col-md-8 col-lg-7 d-flex align-items-start">
+                    <div class="icon-wrap icon-wrap-large flex-shrink-0 me-2">
+                       <img src="img/home/Introducing-Broker-icon.png" alt="icon" width="70" >
+                    </div>
+                    <div>
+                        <h3>
+                            Introducing Broker </h3>
+                        <p class="mb-0"> 
+                            
+Get yourself hooked to a new job by becoming an Introducing Broker. It’s simple, promising, and highly beneficial. All you need to do is to bring your clients to us and make them trade in Forex. In return, get a good load of commission, and not only for getting us a client but also every time your introduced client trades. 
+                        </p>
+                        <a href="blog.html" class="btn btn-link link-primary text-decoration-none mt-1 mb-2 px-0">Learn more<i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+
+
+            </div>
+            <br><br>
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-12 col-lg-10">
+                    <div class="card card-body text-center">
+                        <h2 class="mt-2 mb-3">Fast account opening in <span class="text-highlight">3 simple steps</span></h2>
+                        <div class="row row-cols-1 row-cols-md-3">
+                            <div class="col">
+                                <div class="icon-wrap bg-primary rounded-circle flex-shrink-0 mb-1">
+                                    <span class="fw-bold fs-4 text-primary">1</span>
+                                </div>
+                                <h5 class="mt-1">Register</h5>
+                                <p>Fill in the registration form on Angelsky website.</p>
+                            </div>
+                            <div class="col">
+                                <div class="icon-wrap bg-primary rounded-circle flex-shrink-0 mb-1">
+                                    <span class="fw-bold fs-4 text-primary">2</span>
+                                </div>
+                                <h5 class="mt-1">Deposit</h5>
+                                <p>Make your initial deposit to fund your account.</p>
+                            </div>
+                            <div class="col">
+                                <div class="icon-wrap bg-primary rounded-circle flex-shrink-0 mb-1">
+                                    <span class="fw-bold fs-4 text-primary">3</span>
+                                </div>
+                                <h5 class="mt-1">Trade</h5>
+                                <p>Start trading and enjoy the profits!</p>
+                            </div>
+                        </div>
+                        <a href="https://secure.angelsky.com/register" class="btn btn-outline-primary rounded-pill mt-2">Create Account<i class="fas fa-arrow-right fa-sm ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- section content begin -->
+
+    <!-- section content end -->
+    <!-- section content begin -->
+    <!-- <section class="py-5 in-avo-5 bg-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-9 text-center">
+                    <h2>Get started with Avo.</h2>
+                    <p class="lead mb-4">Global access to financial markets from a single account</p>
+   <a href="https://download.terminal.free/cdn/web/angelsky.global.limited/mt5/angelskyglobal5setup.exe" class="btn btn-outline-secondary mb-2 mb-md-0">
+                                <div class="d-flex align-items-center text-start">
+                                   <img src="img/Platform/windows.png" alt="icon" width="29" >
+                                   &nbsp; &nbsp;
+                                    <div>
+                                        <span class="h6">Download for</span><br>Desktop
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://download.terminal.free/cdn/mobile/mt5/ios?server=AngelskyGlobal-Server" class="btn btn-outline-secondary">
+                                <div class="d-flex align-items-center text-start">
+                                   <img src="img/Platform/apple.png" alt="icon" width="29" >
+                                   &nbsp; &nbsp;
+                                    <div>
+                                        <span class="h6">Download for</span><br>  iOS
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="mob">
+                                <a href="https://download.terminal.free/cdn/mobile/mt5/android?server=AngelskyGlobal-Server" class="btn btn-outline-secondary ">
+                                    <div class="d-flex align-items-center text-start">
+                                        <img src="../../img/Platform/playstore.png" alt="icon" width="29" >
+                                        &nbsp; &nbsp;
+                                         <div>
+                                             <span class="h6">Download for</span><br>  Android
+                                         </div>
+                                    </div>
+                                </a>
+                            </div>
+                           
+                           
+                            <div class="pc" >
+                                <br>
+                                <a href="https://download.terminal.free/cdn/mobile/mt5/android?server=AngelskyGlobal-Server" class="btn btn-outline-secondary ">
+                                    <div class="d-flex align-items-center text-start">
+                                       <img src="../../img/Platform/playstore.png" alt="icon" width="29" >
+                                       &nbsp; &nbsp;
+                                        <div>
+                                            <span class="h6">Download for</span><br>  Android
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="py-5 in-avo-18 bg-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-12 text-center">
+                    <h2>Fast and reliable methods.</h2>
+                    <p class="lead mb-5">At the time of deposit and also withdrawal</p>
+                    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 gx-0 payment-logos">
+                        <div class="col text-center border-bottom border-bottom-md-0 border-end-md">
+                            <img class="payment-logo" src="img/home/payments/bank-transfer.png" alt="Bank Transfer" width="160" height="70">
+                        </div>
+                        <div class="col text-center border-bottom border-bottom-md-0 border-end-md">
+                            <img class="payment-logo" src="img/home/payments/mastercard.png" alt="Mastercard" width="120" height="70">
+                        </div>
+                        <div class="col text-center border-bottom border-bottom-md-0 border-end-md">
+                            <img class="payment-logo" src="img/home/payments/visa.png" alt="Visa" width="140" height="50">
+                        </div>
+                        <div class="col text-center border-bottom border-end-lg border-bottom-md-0">
+                            <img class="payment-logo" src="img/home/payments/neteller.png" alt="Neteller" width="160" height="40">
+                        </div>
+                        <div class="col text-center border-bottom border-bottom-lg-0 border-end-lg">
+                            <img class="payment-logo" src="img/home/payments/usdt.png" alt="USDT" width="70" height="70">
+                        </div>
+                        <div class="col text-center">
+                            <img class="payment-logo" src="img/home/payments/skrill.png" alt="Skrill" width="140" height="50">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- section content end -->
+    </main>
+    <!-- footer begin -->
+    <footer class="bg-light pb-4 in-avo-footer" style="background-color: #00A8A8 !important;">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-4 gy-lg-0">
+               
+                <div class="col">
+                    <h5 style="color: white;">Markets</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a  href="../../forex.html" class="foot">Forex</a>
+                        </li>
+                        <li>
+                            <a  href="../../stocks.html" class="foot">Shares</a>
+                        </li>
+                        <li>
+                            <a  href="../../commodities.html" class="foot">Commodities</a>
+                        </li>
+                        <li>
+                            <a  href="../../indicies.html" class="foot">Indices</a>
+                        </li>
+                         <li>
+                            <a  href="../../crypto.html" class="foot">Cryptocurrencies</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5 class="foot" style="color: white;">Account Types</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a  href="../../standardAccount.html" class="foot">Standard</a>
+                        </li>
+
+                        <li>
+                            <a  href="../../ecnaccount.html" class="foot">ECN</a>
+                        </li>
+
+                        <li>
+                            <a  href="../../vipaccount.html" class="foot">VIP</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="col">
+                    <h5 class="foot" style="color: white;">Others</h5>
+                    <ul class="list-unstyled">
+                     
+
+
+
+                        <li >
+                            <a class="nav-link" href="../../capital/platfrom.html"  aria-expanded="false"style="color: white;">Platform</a>
+                          
+                        </li>
+                        <li>
+                            <a href="../../capital/promotions.html" class="foot">Promotions</a>
+                        </li>
+               
+                              
+                                <li>
+                                    <a  href="../../ib.html" class="foot">Intrdoucing Brokers</a>
+                                </li>
+
+                                <li>
+                                    <a  href="../../liquidtprovider.html" class="foot">Liquidity Solutions</a>
+                                </li>
+                                <li>
+                                    <a  href="../../blog.html" class="foot">Blog</a>
+                                </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5 class="foot" style="color: white;">Get in Touch</h5>
+                    <p class="foot" style="color: white;">Contact us any time for getting support.</p>
+                    <!-- social media begin -->
+                    <div class="social-media-list footer-social-icons" aria-label="Social media">
+                    <a href="https://www.youtube.com/@adminangelsky" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="YouTube"><img src="/img/social/youtube.svg" alt="YouTube" width="38" height="38"></a>
+                    <a href="https://x.com/angelskyx26" target="_blank" rel="noopener noreferrer" aria-label="X" title="X"><img src="/img/social/x.svg" alt="X" width="38" height="38"></a>
+                    <a href="https://wa.link/ulawxv" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" title="WhatsApp"><img src="/img/social/whatsapp.svg" alt="WhatsApp" width="38" height="38"></a>
+                    <a href="https://www.facebook.com/profile.php?id=61594179084222" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook"><img src="/img/social/facebook.svg" alt="Facebook" width="38" height="38"></a>
+                    <a href="mailto:support@angelsky.com" aria-label="Gmail" title="Gmail"><img src="/img/social/gmail.svg" alt="Gmail" width="38" height="38"></a>
+                    <a href="https://www.instagram.com/angelsky__global/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram"><img src="/img/social/instagram.svg" alt="Instagram" width="38" height="38"></a>
+                    <a href="https://www.tiktok.com/@angelskyglobal" target="_blank" rel="noopener noreferrer" aria-label="TikTok" title="TikTok"><img src="/img/social/tiktok.svg" alt="TikTok" width="38" height="38"></a>
+                    <a href="https://www.linkedin.com/company/108643638" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><img src="/img/social/linkedin.svg" alt="LinkedIn" width="38" height="38"></a>
+                    </div>
+                    <!-- social media end -->
+                </div>
+                <div class="col-md-12 col-lg-12  mt-4">
+                    <div style="text-align: left;" >
+                        <p class="mb-0" style="font-size: 13px !important; color: white !important;" >
+The <b style="font-family:Gilroy-Bold,'DM Sans',sans-serif;font-weight:700!important">Angelsky</b> brand is authorized and regulated.
+                                <br> <br>
+                                <b style="font-family:Gilroy-Bold,'DM Sans',sans-serif;font-weight:700!important">Angelsky Global Ltd.</b> (Mauritius) serves UAE clients through an exclusive affiliate partnership with <b style="font-family:Gilroy-Bold,'DM Sans',sans-serif;font-weight:700!important">Angelsky</b> financial services LLC, a Category 5 introducing broker licensed by the UAE Capital Market Authority (CMA License No. 20200000400). Under CMA regulations, <b style="font-family:Gilroy-Bold,'DM Sans',sans-serif;font-weight:700!important">Angelsky</b> financial services LLC is strictly limited to promotional and client introduction services and does not hold or manage client funds. All trading and client-related services are provided solely by <b style="font-family:Gilroy-Bold,'DM Sans',sans-serif;font-weight:700!important">Angelsky Global Ltd.</b> Visit www.angelsky.com for full details.
+                                <br> <br>
+                                <b style="font-family:Gilroy-Bold,'DM Sans',sans-serif;font-weight:700!important">Angelsky</b> is a trading name used by <b style="font-family:Gilroy-Bold,'DM Sans',sans-serif;font-weight:700!important">AngelSky Global Ltd</b> (regulated by Mauritius Financial Services Commission – FSC). Services are provided only by the entity authorized in the client’s jurisdiction.
+                                <br> <br>
+                                <b style="font-family:Gilroy-Bold,'DM Sans',sans-serif;font-weight:700!important">Angelsky Global Ltd.</b> has a global business and authorized by the Mauritius Financial Services Commission (FSC) with regulatory license number GB25205167. The registered office of <b style="font-family:Gilroy-Bold,'DM Sans',sans-serif;font-weight:700!important">Angelsky Global Ltd</b> is 1c/o Renark Management Solutions Ltd, 4th Floor, The Docks 4, The Docks, 11307, Caudan, MU-PL | Mauritius
+                                <br> <br>
+                                <b style="font-family:Gilroy-Bold,'DM Sans',sans-serif;font-weight:700!important">RISK WARNING:</b> Trading Forex and leveraged derivative products (CFDs) involves significant risk and is not suitable for all investors. Leverage magnifies both gains and losses. You do not own or have rights to the underlying assets. You may lose all your invested capital; never speculate with funds you cannot afford to lose. Information on this site is general and does not constitute personalized financial advice. Past performance does not guarantee future results. Please ensure you fully understand the risks and review our legal documents section.
+                                <br> <br>
+                                <b style="font-family:Gilroy-Bold,'DM Sans',sans-serif;font-weight:700!important">The AngelSky Brand</b> is not oriented in any jurisdiction nor is it intended for use that would be contrary to local laws or regulations of its users. It is the responsibility of the Client to ascertain whether he/she is permitted to use the services of <b style="font-family:Gilroy-Bold,'DM Sans',sans-serif;font-weight:700!important">Angelsky</b>, based on the legal requirements in his/her country of residence. <b style="font-family:Gilroy-Bold,'DM Sans',sans-serif;font-weight:700!important">Angelsky</b> does not provide services to residents of jurisdictions where such offerings are prohibited by applicable law, including countries under international sanctions and/or FATF blacklisting. The aforementioned include but are not limited to: Afghanistan, Belarus, Cuba, Democratic Republic of Congo, Haiti, Iran, Israel, Myanmar, North Korea, Russia, South Sudan, Syria, Ukraine, Venezuela, Yemen, and other jurisdictions with restrictive local regulations, including the United States of America. These restrictions apply to all client acquisition methods, including through Introducing Brokers or Affiliates. <b style="font-family:Gilroy-Bold,'DM Sans',sans-serif;font-weight:700!important">Angelsky</b> reserves the right to restrict services to residents of any other jurisdiction where such offerings may be prohibited or deemed high risk.
+</p>
+                    </div>
+                </div>
+<div class="col-md-12 col-lg-12 text-center small mt-4">
+                    
+
+
+               
+
+                  
+                    <p class="copyright-text" style="color: white;">Copyright ©2026 &nbsp;<img src="img/home/angelsky-logo-white.png" width="110" style="transform: translateY(-1.5px);" >. All Rights Reserved.</p>
+                 
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <!-- to top begin -->
+
+    <!-- to top end -->
+    <!-- javascript -->
+    <script src="../../js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="../../js/vendors/vanilla-marquee.min.js"></script>
+    <script src="../../js/vendors/tradingview-widget.min.js"></script>
+    <script src="../../js/vendors/bigger-picture.min.js"></script>
+    <script src="../../js/utilities.min.js"></script>
+    <script src="../../js/config-theme.js"></script>
+
+    <script src="../../js/nav-dropdowns.js"></script>
+</body>
+
+</html>
